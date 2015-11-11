@@ -25,7 +25,8 @@ unset DEVPATH
 
 # Merge and copy the lib
 
-DIR=${1:-lib}
+#DIR=${1:-lib}
+DIR=build-ios
 rm -rf ./$DIR
 
 #LIPO="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/lipo"
